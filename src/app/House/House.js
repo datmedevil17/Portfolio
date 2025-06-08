@@ -17,11 +17,7 @@ import {
   faGlobe,
   faSearch,
   faExternalLink,
-  faAward,
-  faDashboard,
-  faExclamationTriangle,
-  faDiagramSuccessor,
-  faBellConcierge,
+
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import "./../page.css";
@@ -744,6 +740,19 @@ ${userMessage}`,
   // Projects data
   const projects = [
     {
+      title: "Kernel",
+      description:
+"A versatile and production-ready smart contract development environment that redefines the experience of blockchain developers on Polkadot AssetHub. Kernel AI combines exceptional speed, security, and intelligence to provide a seamless experience to develop, audit, and deploy smart contracts.With Kernel AI, developers can streamline the entire contract development lifecycle and fast-track their development journey on Polkadot's cutting-edge infrastructure.",
+      titleImage: "/images/title-k.png",
+      images: [
+        "/images/title-k1.png",
+        "/images/title-k2.png",
+        "/images/title-k3.png",
+        "/images/title-k4.png",
+      ],
+      link: "https://github.com/datmedevil17/kernel",
+    },
+    {
       title: "JansunwAI",
       description:
         "JansunwAI is an innovative public grievance redressal platform that leverages artificial intelligence to streamline citizen complaints and government responses. Built with Next.js, TailwindCSS, and OpenAI's GPT-4, the platform features intelligent complaint categorization, automated routing to relevant departments, and real-time status tracking. The system employs natural language processing to analyze complaints, suggest solutions from similar resolved cases, and maintain a searchable knowledge base. Key features include multi-language support, voice-to-text input, automated sentiment analysis for feedback, and a transparent blockchain-based audit trail for complaint resolution. The platform has successfully reduced average resolution time by 60% and improved citizen satisfaction rates through its AI-powered assistance and efficient workflow management.",
@@ -809,19 +818,7 @@ ${userMessage}`,
       ],
       link: "https://github.com/datmedevil17/meta-gallery",
     },
-    {
-      title: "Neuron",
-      description:
-        "Neuron is an AI-powered code editor designed to revolutionize developer productivity through intelligent assistance, real-time code suggestions, and automated debugging. Built with a sleek, responsive interface, Neuron integrates large language models (LLMs) to understand context, auto-complete functions, refactor code, and explain logic on the fly. It supports multiple programming languages and frameworks, offering smart syntax highlighting, error detection, and AI chat for problem-solving. Developers can collaborate in real time, generate boilerplate code instantly, and even deploy smart contracts or full-stack apps with guided prompts.",
-      titleImage: "/images/title-n.png",
-      images: [
-        "/images/title-n1.png",
-        "/images/title-n2.png",
-        "/images/title-n3.png",
-        "/images/title-n4.png",
-      ],
-      link: "https://github.com/datmedevil17/Neuron",
-    },
+  
     {
       title: "Melody",
       description:
@@ -839,12 +836,12 @@ ${userMessage}`,
       title: "Study-DAO",
       description:
         "StudyDAO is a decentralized learning platform that revolutionizes online education through blockchain technology and collaborative governance. Built with Next.js, Ethereum smart contracts, and IPFS, the platform enables peer-to-peer learning, decentralized content creation, and token-based incentives. Students can earn tokens by completing courses, contributing content, or mentoring others, while educators can create and monetize courses with transparent revenue sharing. Key features include decentralized content storage on IPFS, automated certification using NFTs, reputation-based content curation, and DAO governance for curriculum decisions. The platform integrates Web3 wallets for seamless transactions, implements zk-proofs for private assessment verification, and uses smart contracts for automatic reward distribution. StudyDAO has successfully onboarded over 500 students and 50 educators, with a growing library of community-vetted educational content spanning technical and creative disciplines.",
-      titleImage: "/images/studydao/title.png",
+      titleImage: "/images/title-s.png",
       images: [
-        "/images/studydao/detail1.png",
-        "/images/studydao/detail2.png",
-        "/images/studydao/detail3.png",
-        "/images/studydao/detail4.png",
+        "/images/title-s1.png",
+        "/images/title-s2.png",
+        "/images/title-s3.png",
+        "/images/title-s4.png",
       ],
       link: "https://github.com/datmedevil17/hack-web3conf",
     },
@@ -1666,11 +1663,11 @@ ${userMessage}`,
                 ></iframe>
               </div>
               <div className="demo-video-item">
-                <h3>Neuron Demo</h3>
+                <h3>Kernel Demo</h3>
                 <iframe
                   width="100%"
                   height="400"
-                  src="https://www.youtube.com/embed/ziIbpvp28VQ"
+                  src="https://www.youtube.com/embed/J5z0OQXDiMk"
                   title="JansunwAI Demo"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
